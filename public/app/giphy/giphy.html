@@ -1,0 +1,10 @@
+<div id='container'>
+  <input style="margin-left: 10px" placeholder="Search Giphy" ng-change="change()" ng-model-options="{ debounce: 1000 }" ng-model="searchtext"><span>  (click on image to save)</span><br><br>
+  <div id="results">
+    <ul>
+      <li ng-repeat="gif in gifs">
+        <td><img src="{{ gif.images.fixed_width_small.url }}" ng-click="save($index)"></td>
+      </li>
+    </ul>
+  </div>
+</div>

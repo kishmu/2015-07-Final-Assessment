@@ -1,0 +1,22 @@
+#results ul { 
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+}
+
+#results ul li { 
+  display: inline; 
+}
+
+#results ul li img {
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #036;
+  cursor: pointer;
+}
+
+#results ul li img:hover
+{
+  color: #fff;
+  background-color: #ADFF2F;
+}

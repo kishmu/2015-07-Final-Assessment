@@ -1,0 +1,25 @@
+{
+  "name": "2015-07-Final-Assessment",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kishmu/2015-07-Final-Assessment",
+  "authors": [
+    "Krishna Kalvai <kishmu@gmail.com>"
+  ],
+  "description": "final assessment for hack reactor",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "angular-sanitize": "~1.4.4",
+    "angular-ui-router": "~0.2.15"
+  }
+}
